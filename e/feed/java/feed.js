@@ -1,6 +1,6 @@
 const productsContainer = document.getElementById('products-container');
 
-fetch('feed.json')
+fetch('https://ariaplus.net/e/feed/java/feed.json')
   .then(response => response.json())
   .then(products => {
     products.forEach(product => {
