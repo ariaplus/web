@@ -8,7 +8,7 @@ fetch('./e/trends/java/trends.json')
       trendElement.classList.add('trends');
       trendElement.innerHTML = `
           <p class="trending-heading">${trend.name}</p>
-          <p class="trending-text">${trend.hastag}</p>
+          <p class="trending-text">${trend.hashtag}</p>
           <p class="trending-heading">${trend.numberposts}</p>
       `;
       trendsContainer.appendChild(trendElement);
