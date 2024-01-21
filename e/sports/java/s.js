@@ -1,6 +1,6 @@
 const sportsContainer = document.getElementById('sports-container');
 
-fetch('s.json')
+fetch('./e/sports/java/s.json')
   .then(response => response.json())
   .then(trends => {
     sports.forEach(s => {
