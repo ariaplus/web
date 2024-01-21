@@ -1,6 +1,6 @@
 const newsContainer = document.getElementById('news-container');
 
-fetch('https://arplx.github.io/12/i/news/news.json')
+fetch('https://ariaplus.net/e/news/java/news.json')
   .then(response => response.json())
   .then(news => {
     news.forEach(n => {
