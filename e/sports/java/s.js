@@ -5,7 +5,7 @@ fetch('./e/sports/java/s.json')
   .then(trends => {
     sports.forEach(s => {
       const sportsElement = document.createElement('div');
-      sportsElement.classList.add('sports');
+      sportsElement.classList.add('X');
       sportsElement.innerHTML = `
           <p class="trending-heading">${s.name}</p>
           <p class="trending-text">${s.hashtag}</p>
