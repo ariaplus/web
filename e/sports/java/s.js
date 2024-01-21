@@ -2,7 +2,7 @@ const sportsContainer = document.getElementById('sports-container');
 
 fetch('./e/sports/java/s.json')
   .then(response => response.json())
-  .then(trends => {
+  .then(sports => {
     sports.forEach(s => {
       const sportsElement = document.createElement('div');
       sportsElement.classList.add('X');
